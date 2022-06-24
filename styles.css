@@ -1,0 +1,43 @@
+html, body, #app {
+    height: 100%;
+    margin: 0;
+}
+
+#app {
+    display: flex;
+    /* flex-wrap: wrap-reverse; keep the flexbox intact */       
+    
+    /* align-items: center;
+    justify-content: space-between;
+    align-content: space-between; */
+     /* align the content */
+    /* flex-direction: row;
+    align-items: center;
+    justify-content: space-around; */
+}
+
+.box {
+    width: 190px;
+    height: 60px;
+    background: #f00;
+    margin: 5px;
+    /* flex: 1; */
+    /* flex-grow: 1; increase the size of elements to fill the page*/ 
+    /* flex-shrink: 1; decrease the size of elements */
+    /* flex: 1 0 > both attributes */
+}
+
+.red {
+    order: 1; /* order is used to specify the order of the elements */
+}
+
+.green {
+    background: #0F0;
+    order: 2;
+}
+
+.blue {
+    background: #00F;
+    order: 0;
+
+}
